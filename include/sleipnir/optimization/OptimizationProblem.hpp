@@ -54,8 +54,7 @@ class SLEIPNIR_DLLEXPORT OptimizationProblem {
   /**
    * Construct the optimization problem.
    */
-  OptimizationProblem() noexcept {
-  }
+  OptimizationProblem() noexcept = default;
   /**
    * Create a decision variable in the optimization problem.
    */
